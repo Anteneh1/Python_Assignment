@@ -91,7 +91,7 @@ with open (budget_data, newline="") as csvfile:
     print(" Total Revenue :   ","$",sumx(cr_list))
     print(" Averag Revenue change :  ", "$",avg)
 
-    #Read the csv reader to find the correponding date to the maximum value tat we find from-
+    #Read the csv reader to find the correponding date to the maximum value that we found from-
     # the created list to the corespoding  original data.
 with open (budget_data, newline="") as csvfile:        
     csv_reader=csv.reader(csvfile,delimiter=",")
